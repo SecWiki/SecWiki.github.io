@@ -634,7 +634,9 @@ div.canvas-content{
 	padding-top: 10px;
 	background: #f2f2f2;
 }
-
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+    background-color: #ddd;
+}
 
 /* ==========================================================================
    MEDIA QUERIES
