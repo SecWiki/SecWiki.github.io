@@ -84,7 +84,7 @@ var mouseX = 0, mouseY = 0,
 
                 document.addEventListener( 'mousemove', onDocumentMouseMove, false );
                 document.addEventListener( 'touchstart', onDocumentTouchStart, false );
-                document.addEventListener( 'touchmove', onDocumentTouchMove, false );
+                container.addEventListener( 'touchmove', onDocumentTouchMove, false );
 
                 //
 
